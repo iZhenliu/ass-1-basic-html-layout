@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color:hsl(96, 92%, 86%)
+}
+header{
+    background-color:hsl(96, 92%, 86%);
+    text-align: center;
+    padding: 25px;
+}
+nav{
+    background-color:hsl(95, 85%, 90%);
+    text-align: center;
+    padding: 5px;    
+}
+aside{
+    background-color:hsl(88, 97%, 86%);
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+section{
+    background-color:hsl(73, 78%, 71%);
+    width: 50%;
+    text-align: center;
+    float: left;
+    padding: 10px;
+}
+article{
+    background-color:hsl(88, 97%, 86%);
+    width: 25%;
+    text-align: right;
+    float: left;
+    padding: 10px;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: hsl(96, 92%, 86%);
+    text-align: center;
+    padding: 25px;
+}
+@media screen and (max-width:600px){
+    aside, section, article{
+        width: 100%;
+    }
+}
